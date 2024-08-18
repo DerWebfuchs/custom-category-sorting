@@ -1,3 +1,7 @@
+/**
+ * Set up sorting function for WordPress categories in GeneratePress:
+ * See: https://derwebfuchs.de/sortierfunktion-fur-wordpress-kategorien/
+ */
 function custom_sorting_setup() {
     // Überprüfe, ob es sich um eine Kategorieseite handelt und ob die Kategorie-ID 4, 6, 7, oder 167 ist
     if (is_category(array(4, 6, 7, 167))) {
